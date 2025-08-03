@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+.header-container {
+  display: flex;/* Stack logo and text vertically */
+  align-items: center;        /* Center horizontally */
+  justify-content: center;    /* Center vertically */
+  background: orange; 
+  padding: 2em 2em;       /* Header background color */
+  gap: 10px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.title p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+footer {
+  background: #0084ff;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  background: #2e95da;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background: #0c8bc1;
+}
+
+main {
+  padding: 20px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
