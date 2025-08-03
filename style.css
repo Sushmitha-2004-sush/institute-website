@@ -15,14 +15,14 @@ body {
 }
 /* Make all images responsive and smaller */
 img {
-  max-width: 40%;
+  max-width: 60%;
   height: auto;
   display: block;
 }
 
 /* Make video smaller */
 video {
-  width: 250px;  /* or adjust to your desired size */
+  width: 380px;  /* or adjust to your desired size */
   height: auto;
   display: block;
   margin: 1px;
