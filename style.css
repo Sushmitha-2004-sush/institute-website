@@ -73,6 +73,33 @@ nav ul li a {
 nav ul li a:hover {
   background: #0c8bc1;
 }
+button {
+  padding: 20px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+form {
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+}
+
+input, select{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+
 
 main {
   padding: 20px;
