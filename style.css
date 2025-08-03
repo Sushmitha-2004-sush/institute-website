@@ -13,7 +13,20 @@ body {
   padding: 2em 2em;       /* Header background color */
   gap: 10px;
 }
+/* Make all images responsive and smaller */
+img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+}
 
+/* Make video smaller */
+video {
+  width: 250px;  /* or adjust to your desired size */
+  height: auto;
+  display: block;
+  margin: 1px;
+}
 .logo {
   width: 60px;
   height: 60px;
